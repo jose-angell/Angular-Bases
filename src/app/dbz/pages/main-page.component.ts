@@ -19,4 +19,7 @@ export class MainPageComponent  {
       power: 7000
     }
   ]
+  onNewCharacter(character: Character):void{
+    this.characters.push(character);
+  }
 }
